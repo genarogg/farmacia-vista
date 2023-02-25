@@ -1,0 +1,138 @@
+body {
+  background-image: url(../img/background.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+* {
+  transition: ease all 600ms;
+}
+.form-usuario {
+  background-color: transparent;
+}
+
+.contenedor-form,
+.tarea {
+  background-color: rgba(#001b5b, 0.2);
+  border: 1px solid rgba(#ffedb6, 0.6);
+}
+
+.sombra {
+  box-shadow: 0px 4px 10px -3px rgb(0 0 0);
+}
+
+h1,
+h2,
+label,
+.enlace-cuenta,
+p,
+.btn-blank,
+.btn {
+  color: #fff;
+}
+input,
+.campo-form input[type="password"],
+.campo-form input[type="email"],
+.campo-form input[type="text"] {
+  background-color: rgba(#001b5b, 0.2) !important;
+  border: 1px solid rgba(#ffedb6, 0.4);
+  color: #fff;
+  outline: none !important;
+
+  &::placeholder {
+    color: rgba(#fff, 0.8);
+  }
+}
+
+.btn-primario {
+  background-color: rgba(#001b5b, 0.2);
+  border: 1px solid rgba(#ffedb6, 0.4);
+
+  &:hover {
+    border: 1px solid rgba(#ffedb6, 0.8);
+    background-color: rgba(#001b5b, 0.8);
+  }
+}
+
+aside,
+.app-header {
+  background-color: rgba(#fff, 0.1);
+  backdrop-filter: blur(2px);
+}
+
+.listado-proyectos li {
+  display: flex;
+  justify-content: center;
+}
+.nombre-usuario {
+  text-transform: capitalize;
+}
+
+.formulario {
+  background-color: transparent;
+}
+
+.seccion-principal {
+  .input-text {
+    background-color: rgba(#001b5b, 0.2);
+    border: 1px solid rgba(#ffedb6, 0.4);
+    box-shadow: 0px 4px 10px -3px rgb(0 0 0);
+    &:hover {
+      border: 1px solid rgba(#ffedb6, 0.8);
+      background-color: rgba(#001b5b, 0.8);
+    }
+  }
+  .btn-primario {
+    box-shadow: 0px 4px 10px -3px rgb(0 0 0);
+  }
+  .btn.btn-eliminar,
+  .btn.btn-secundario {
+    background-color: rgba(#001b5b, 0.2);
+    border: 1px solid rgba(#ffedb6, 0.4);
+    box-shadow: 0px 4px 10px -3px rgb(0 0 0);
+
+    &:hover {
+      border: 1px solid rgba(#ffedb6, 0.8);
+      background-color: rgba(#001b5b, 0.8);
+    }
+  }
+}
+
+.completo,
+.correcto {
+  background-color: rgba(#9afc9a, 0.8);
+}
+
+.incompleto {
+  background-color: rgba(#ffb2b2, 0.8);
+}
+
+::-webkit-scrollbar {
+  width: 7px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #001b5a;
+}
+
+.usuario-generico {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+
+  .enlace-cuenta {
+    display: inline-flex;
+  }
+
+  button.usuarioDemo{
+    border: none;
+    background-color: transparent;
+
+    margin-top: 2rem;
+    display: block;
+    opacity: 0.7;
+    color: #fff;
+
+    cursor: pointer;
+  }
+}
