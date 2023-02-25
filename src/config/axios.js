@@ -1,6 +1,6 @@
 import axios from "axios";
 const clienteAxios = axios.create({
-  baseURL: 'http://localhost:4000/',
+  baseURL: 'https://farmacia-server2.onrender.com/',
 });
 
 export default clienteAxios
