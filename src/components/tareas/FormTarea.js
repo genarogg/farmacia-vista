@@ -11,7 +11,7 @@ const FormTareas = () => {
   const tareasContext = useContext(tareaContext);
   const {
     tareaseleccionada,
-    tareasproyecto,
+   /*  tareasproyecto, */
     errortarea,
     agregarTarea,
     validarTarea,
